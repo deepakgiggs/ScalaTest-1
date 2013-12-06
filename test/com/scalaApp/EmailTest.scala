@@ -7,7 +7,7 @@ import org.scalatest.FunSuite
  */
 class EmailTest extends FunSuite {
 
-  test("Email with valid email address") {
+  test("checking valid email address") {
 
     val email = Email("abcdef@gmail.com")
     assert(email.email != null)
